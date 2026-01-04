@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AUREX Watch Co.</title>
+  <style>
+    :root {
+      --black: #000;
+      --white: #fff;
+      --gray: #b5b5b5;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      background: var(--black);
+      color: var(--white);
+      line-height: 1.6;
+      letter-spacing: 0.04em;
+    }
+
+    a {
+      color: var(--white);
+      text-decoration: none;
+    }
+
+    section {
+      padding: 120px 8%;
+    }
+
+    /* HERO */
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: clamp(3rem, 6vw, 5rem);
+      font-weight: 300;
+      letter-spacing: 0.25em;
+    }
+
+    .hero p {
+      margin-top: 20px;
+      font-size: 1rem;
+      color: var(--gray);
+    }
+
+    /* DIVIDER */
+    .divider {
+      width: 60px;
+      height: 1px;
+      background: var(--white);
+      margin: 60px auto;
+      opacity: 0.6;
+    }
+
+    /* ABOUT */
+    .about {
+      max-width: 900px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .about h2 {
+      font-size: 1.8rem;
+      font-weight: 400;
+      margin-bottom: 30px;
+      letter-spacing: 0.15em;
+    }
+
+    .about p {
+      color: var(--gray);
+      font-size: 1rem;
+    }
+
+    /* PHILOSOPHY */
+    .philosophy {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 60px;
+      max-width: 1100px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .philosophy h3 {
+      font-size: 1rem;
+      font-weight: 400;
+      margin-bottom: 15px;
+      letter-spacing: 0.2em;
+    }
+
+    .philosophy p {
+      color: var(--gray);
+      font-size: 0.95rem;
+    }
+
+    /* COLLECTION */
+    .collection {
+      text-align: center;
+    }
+
+    .collection h2 {
+      font-size: 1.8rem;
+      margin-bottom: 30px;
+      letter-spacing: 0.15em;
+    }
+
+    .collection p {
+      color: var(--gray);
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    /* FOOTER */
+    footer {
+      padding: 80px 8%;
+      text-align: center;
+      border-top: 1px solid rgba(255,255,255,0.1);
+    }
+
+    footer p {
+      color: var(--gray);
+      font-size: 0.85rem;
+      margin-bottom: 10px;
+    }
+
+    @media (max-width: 768px) {
+      section {
+        padding: 90px 6%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HERO -->
+  <section class="hero">
+    <h1>AUREX</h1>
+    <p>Time, Refined.</p>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ABOUT -->
+  <section class="about">
+    <h2>AUREX WATCH CO.</h2>
+    <p>
+      Aurex Watch Co. was founded on the belief that timepieces should speak quietly,
+      yet with authority. We design watches that favor restraint over excess,
+      precision over noise, and longevity over trends.
+      <br><br>
+      Every Aurex watch is created to endure—both in form and function.
+    </p>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- PHILOSOPHY -->
+  <section class="philosophy">
+    <div>
+      <h3>DESIGN</h3>
+      <p>
+        Clean lines. Balanced proportions.
+        Nothing added without purpose.
+      </p>
+    </div>
+    <div>
+      <h3>PRECISION</h3>
+      <p>
+        Accuracy is not a feature.
+        It is the foundation.
+      </p>
+    </div>
+    <div>
+      <h3>ENDURANCE</h3>
+      <p>
+        Built to be worn daily.
+        Crafted to last decades.
+      </p>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- COLLECTION -->
+  <section class="collection">
+    <h2>THE COLLECTION</h2>
+    <p>
+      Our inaugural collection is currently in development.
+      Designed for those who value intention over attention.
+      <br><br>
+      Launch details coming soon.
+    </p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 AUREX Watch Co.</p>
+    <p>All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
